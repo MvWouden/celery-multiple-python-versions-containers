@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "orchestrator"
+version = "0.1.0"
+description = "Orchestrator application for Celery task"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+celery = "^5.2.3"
+redis = "^5.0.8"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
